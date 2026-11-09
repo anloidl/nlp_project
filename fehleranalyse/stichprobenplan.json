@@ -1,0 +1,134 @@
+{
+  "seed": 20261108,
+  "selected_at_utc": "2026-11-08T11:23:07.808505+00:00",
+  "scope": "Qualitative Diagnose, keine Korrektur der automatischen Accuracy",
+  "sampling": "Je Variante zehn ohne Zurücklegen aus allen nach Version 3.0 nicht korrekten Antworten; Auswahlrahmen nach numerischer Aufgaben-ID sortiert; eine gemeinsame Random-Instanz in Reihenfolge zero_shot, few_shot, cot.",
+  "source_details_sha256": "47fec13f81a6bec788217046569678cb10dd982b5e27a41f236629dd4728c3e2",
+  "frames": {
+    "zero_shot": 460,
+    "few_shot": 468,
+    "cot": 57
+  },
+  "selected": [
+    {
+      "task_id": "test:510",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:693",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:355",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:1310",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:451",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:601",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:835",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:31",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:830",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:1119",
+      "variant": "zero_shot"
+    },
+    {
+      "task_id": "test:990",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:631",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:150",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:1223",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:1029",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:183",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:2",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:540",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:430",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:989",
+      "variant": "few_shot"
+    },
+    {
+      "task_id": "test:749",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:1161",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:796",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:255",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:423",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:1288",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:649",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:1059",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:768",
+      "variant": "cot"
+    },
+    {
+      "task_id": "test:12",
+      "variant": "cot"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "evaluation_version": "3.0-automatic-robustness",
+  "post_hoc": true,
+  "absolute_tolerance": "1e-9",
+  "relative_tolerance": 0,
+  "source_run": "pilot_v1",
+  "responses": 60,
+  "changed": 1,
+  "variants": {
+    "zero_shot": {
+      "answers": 20,
+      "correct": 10,
+      "unextractable": 0,
+      "incomplete": 0,
+      "correct_only_by_tolerance": 0,
+      "original_format_compliant": 12,
+      "accuracy": 0.5
+    },
+    "few_shot": {
+      "answers": 20,
+      "correct": 11,
+      "unextractable": 0,
+      "incomplete": 0,
+      "correct_only_by_tolerance": 0,
+      "original_format_compliant": 5,
+      "accuracy": 0.55
+    },
+    "cot": {
+      "answers": 20,
+      "correct": 19,
+      "unextractable": 0,
+      "incomplete": 0,
+      "correct_only_by_tolerance": 0,
+      "original_format_compliant": 20,
+      "accuracy": 0.95
+    }
+  },
+  "source_response_sha256": "27923dc627b8d45a46f33c4a07b6a609120b27079b47a1251b1dbe8f7d3aab74",
+  "evaluator_sha256": "68a0470303d18d0fb3208c8accdbc987625e7508f37864dd9b2b714b0b336e83"
+}

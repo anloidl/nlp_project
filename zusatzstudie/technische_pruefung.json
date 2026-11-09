@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checked_at": "2026-11-08T23:14:26.999269+00:00",
+  "pilot_fingerprint": "c2f394b567e9c2b48ec5bc6ccc9ddaede267a536c4c206bbd210535b3d9cee00",
+  "responses": 27,
+  "checks": [
+    "27 complete nonempty responses",
+    "requested model and effort returned",
+    "no temperature/top_p/tools/history sent",
+    "output tokens below half the shared limit",
+    "unique complete nine-cell schedule"
+  ]
+}

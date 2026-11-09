@@ -1,0 +1,412 @@
+[
+  {
+    "task_id": "test:5",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "64",
+    "extracted": "64",
+    "response_excerpt": "FINAL: 64."
+  },
+  {
+    "task_id": "test:14",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "60",
+    "extracted": "60",
+    "response_excerpt": "FINAL: 60%"
+  },
+  {
+    "task_id": "test:17",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "57500",
+    "extracted": "57500",
+    "response_excerpt": "Jill earns $20 × 35 = $700 per week teaching and $30 × 15 = $450 per week coaching. Her weekly total is $700 + $450 = $1,150. Over 50 weeks, she earns $1,150 × 50 = $57,500.FINAL: 57500"
+  },
+  {
+    "task_id": "test:30",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "109",
+    "extracted": "109",
+    "response_excerpt": "FINAL: 109."
+  },
+  {
+    "task_id": "test:60",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "17",
+    "extracted": "17",
+    "response_excerpt": "FINAL: 17."
+  },
+  {
+    "task_id": "test:131",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "940",
+    "extracted": "940",
+    "response_excerpt": "In June, Joseph spent \\(500 - 60 = 440\\) dollars. His total expenditure was \\(500 + 440 = 940\\) dollars.FINAL: 940"
+  },
+  {
+    "task_id": "test:140",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "20",
+    "extracted": "20",
+    "response_excerpt": "FINAL: 20%"
+  },
+  {
+    "task_id": "test:214",
+    "variant": "few_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "8",
+    "extracted": "8",
+    "response_excerpt": "8. FINAL: 8"
+  },
+  {
+    "task_id": "test:325",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "224000",
+    "extracted": "224000",
+    "response_excerpt": "There are \\(100 \\times \\frac{2}{5}=40\\) junior programmers, each earning $2,000. The remaining \\(100-40=60\\) employees are senior programmers, each earning \\(2000+400=\\$2,400\\).\n\nTotal monthly pay is \\(40 \\times 2000 + 60 \\times 2400 = 80{,}000 + 144{,}000 = \\$224{,}000\\).FINAL: 224000"
+  },
+  {
+    "task_id": "test:330",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "31",
+    "extracted": "31",
+    "response_excerpt": "The customer earned $80 / $20 = $4 in rewards. The coupon takes twice that amount off, so it takes $8 off. The total discount is $4 + $8 = $12, and the customer pays $43 - $12 = $31.FINAL: 31"
+  },
+  {
+    "task_id": "test:348",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "10",
+    "extracted": "10",
+    "response_excerpt": "FINAL: 10%"
+  },
+  {
+    "task_id": "test:367",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "repeated_consistent_final",
+    "reference": "19",
+    "extracted": "19",
+    "response_excerpt": "There were 3 customers kicked out for refusing to wear masks. Shoplifting accounted for \\(4 \\times 3 - 5 = 7\\) customers, and physical violence accounted for \\(3 \\times 7 = 21\\). Thus, \\(3 + 7 + 21 = 31\\) were kicked out for these reasons. The number kicked out for other reasons was \\(50 - 31 = 19\\).  \nFINAL: 19\nThere were \\(4 \\times 3 - 5 = 7\\) shoplifters and \\(3 \\times 7 = 21\\) customers kicked out for physical violence. Together with the 3 kicked out for refusing masks, that is \\(3 + 7 + 21 = 31\\). So \\(50 - 31 = 19\\) were kicked out for other reasons.\nFINAL: 19"
+  },
+  {
+    "task_id": "test:413",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "checked_equation",
+    "reference": "25",
+    "extracted": "25",
+    "response_excerpt": "FINAL: 0.05 × 0.01 × 50000 = 25"
+  },
+  {
+    "task_id": "test:436",
+    "variant": "few_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "15",
+    "extracted": "15",
+    "response_excerpt": "15. FINAL: 15"
+  },
+  {
+    "task_id": "test:437",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "final_before_explanation",
+    "reference": "7",
+    "extracted": "7",
+    "response_excerpt": "FINAL: 7. In total, they have 56 oranges to share among 8 people, so each gets 7."
+  },
+  {
+    "task_id": "test:459",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "repeated_consistent_final",
+    "reference": "2",
+    "extracted": "2",
+    "response_excerpt": "Sugar cubes weigh \\(2 \\times 1 = 2\\) pounds, carrots \\(4 \\times 12 = 48\\) pounds, hay \\(42 \\times 75 = 3150\\) pounds, and oats \\(20 \\times 65 = 1300\\) pounds.\n\nTotal feed: \\(2 + 48 + 3150 + 1300 = 4500\\) pounds. At 2250 pounds per trip, \\(4500 \\div 2250 = 2\\) trips.  \nFINAL: 2\nFINAL: 2"
+  },
+  {
+    "task_id": "test:541",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "50",
+    "extracted": "50",
+    "response_excerpt": "FINAL: 50."
+  },
+  {
+    "task_id": "test:707",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "8",
+    "extracted": "8",
+    "response_excerpt": "FINAL: 8%"
+  },
+  {
+    "task_id": "test:728",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "40",
+    "extracted": "40",
+    "response_excerpt": "FINAL: 40%"
+  },
+  {
+    "task_id": "test:772",
+    "variant": "few_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "50",
+    "extracted": "5000000000000001/100000000000000",
+    "response_excerpt": "FINAL: 50.00000000000001"
+  },
+  {
+    "task_id": "test:801",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "1240",
+    "extracted": "1240",
+    "response_excerpt": "Each class has 25 students, so students plant 25 trees. Its 3 teachers plant 3 × 2 = 6 trees. Across 40 classes, that is 40 × (25 + 6) = 1,240 trees.FINAL: 1240"
+  },
+  {
+    "task_id": "test:853",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "15",
+    "extracted": "15",
+    "response_excerpt": "One-half of 90 rooms is 90 / 2 = 45 rooms. Cleaning them takes 45 * 20 = 900 minutes, which is 900 / 60 = 15 hours.FINAL: 15"
+  },
+  {
+    "task_id": "test:856",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "7",
+    "extracted": "7",
+    "response_excerpt": "There are 27 × 2 = 54 glue sticks needed. Since each pack contains 8, 54 ÷ 8 = 6.75, so he must buy 7 whole packs.FINAL: 7"
+  },
+  {
+    "task_id": "test:890",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "25",
+    "extracted": "25",
+    "response_excerpt": "FINAL: 25%"
+  },
+  {
+    "task_id": "test:911",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "64",
+    "extracted": "64",
+    "response_excerpt": "FINAL: 64."
+  },
+  {
+    "task_id": "test:919",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "90",
+    "extracted": "90",
+    "response_excerpt": "FINAL: 90."
+  },
+  {
+    "task_id": "test:951",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "300",
+    "extracted": "300",
+    "response_excerpt": "There are 100 sheets per inch, so a 1.5-inch stack contains 1.5 × 100 = 150 sheets. Each sheet has two printed pages, so the book has 150 × 2 = 300 pages.FINAL: 300"
+  },
+  {
+    "task_id": "test:999",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "25",
+    "extracted": "25",
+    "response_excerpt": "FINAL: 25%"
+  },
+  {
+    "task_id": "test:1030",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "24",
+    "extracted": "24",
+    "response_excerpt": "FINAL: 24%"
+  },
+  {
+    "task_id": "test:1031",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "checked_equation",
+    "reference": "5",
+    "extracted": "5",
+    "response_excerpt": "FINAL: 4750/950 = 5"
+  },
+  {
+    "task_id": "test:1059",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "2",
+    "extracted": "2",
+    "response_excerpt": "FINAL: 2."
+  },
+  {
+    "task_id": "test:1079",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "10",
+    "extracted": "10",
+    "response_excerpt": "FINAL: 10%"
+  },
+  {
+    "task_id": "test:1151",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "50",
+    "extracted": "50",
+    "response_excerpt": "FINAL: 50."
+  },
+  {
+    "task_id": "test:1152",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "12",
+    "extracted": "12",
+    "response_excerpt": "FINAL: 12%"
+  },
+  {
+    "task_id": "test:1152",
+    "variant": "few_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "12",
+    "extracted": "12",
+    "response_excerpt": "FINAL: 12%"
+  },
+  {
+    "task_id": "test:1167",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "120",
+    "extracted": "120",
+    "response_excerpt": "Sophia gave Jack \\(100 \\times \\frac{1}{5} = 20\\) dollars. Jack now has \\(100 + 20 = 120\\) dollars.FINAL: 120"
+  },
+  {
+    "task_id": "test:1195",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "320",
+    "extracted": "320",
+    "response_excerpt": "The first group had 50 people. The 10:00 group had 40, the lunch group had twice that (80), and the evening group had 3 times the first group (150). Adding them gives 50 + 40 + 80 + 150 = 320.FINAL: 320"
+  },
+  {
+    "task_id": "test:1239",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "50",
+    "extracted": "50",
+    "response_excerpt": "FINAL: 50%"
+  },
+  {
+    "task_id": "test:1248",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "750",
+    "extracted": "750",
+    "response_excerpt": "For every 2 dealership visitors, 1 buys a car. To sell 15 cars, Jason needs 15 × 2 = 30 visitors. At 25 calls per visitor, he needs 30 × 25 = 750 calls.FINAL: 750"
+  },
+  {
+    "task_id": "test:1251",
+    "variant": "cot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "30",
+    "extracted": "30",
+    "response_excerpt": "The first side takes 5 minutes. The second and third each take 2 × 5 = 10 minutes, and the fourth and fifth each take 5 ÷ 2 = 2.5 minutes. Since completing the fifth side completes all six sides, the total is 5 + 10 + 10 + 2.5 + 2.5 = 30 minutes.FINAL: 30"
+  },
+  {
+    "task_id": "test:1279",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "180",
+    "extracted": "180",
+    "response_excerpt": "FINAL: 180."
+  }
+]

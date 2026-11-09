@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-11-08T23:14:26.992179+00:00",
+  "planned": 27,
+  "received": 27,
+  "complete": true,
+  "groups": {
+    "luna_none/zero_shot": {
+      "received": 3,
+      "correct": 1,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 478,
+      "output_tokens": 26,
+      "reasoning_tokens": 0,
+      "planned": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "luna_none/few_shot": {
+      "received": 3,
+      "correct": 1,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 949,
+      "output_tokens": 23,
+      "reasoning_tokens": 0,
+      "planned": 3,
+      "accuracy": 0.3333333333333333
+    },
+    "luna_none/cot": {
+      "received": 3,
+      "correct": 3,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 1261,
+      "output_tokens": 195,
+      "reasoning_tokens": 0,
+      "planned": 3,
+      "accuracy": 1.0
+    },
+    "luna_low/few_shot": {
+      "received": 3,
+      "correct": 3,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 949,
+      "output_tokens": 97,
+      "reasoning_tokens": 67,
+      "planned": 3,
+      "accuracy": 1.0
+    },
+    "luna_low/cot": {
+      "received": 3,
+      "correct": 3,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 1261,
+      "output_tokens": 281,
+      "reasoning_tokens": 82,
+      "planned": 3,
+      "accuracy": 1.0
+    },
+    "luna_low/zero_shot": {
+      "received": 3,
+      "correct": 3,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 478,
+      "output_tokens": 132,
+      "reasoning_tokens": 100,
+      "planned": 3,
+      "accuracy": 1.0
+    },
+    "sol_low/cot": {
+      "received": 3,
+      "correct": 3,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 1261,
+      "output_tokens": 164,
+      "reasoning_tokens": 0,
+      "planned": 3,
+      "accuracy": 1.0
+    },
+    "sol_low/zero_shot": {
+      "received": 3,
+      "correct": 3,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 478,
+      "output_tokens": 60,
+      "reasoning_tokens": 32,
+      "planned": 3,
+      "accuracy": 1.0
+    },
+    "sol_low/few_shot": {
+      "received": 3,
+      "correct": 3,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 949,
+      "output_tokens": 61,
+      "reasoning_tokens": 33,
+      "planned": 3,
+      "accuracy": 1.0
+    }
+  }
+}

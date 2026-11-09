@@ -1,0 +1,5 @@
+# Preserve bytes used by recorded SHA-256 fingerprints.
+*.py -text
+*.json -text
+*.jsonl -text
+*requirements*.txt -text

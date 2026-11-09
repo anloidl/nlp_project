@@ -1,0 +1,15 @@
+{
+  "phase": "influence",
+  "fingerprint": "948986c3fc96cae0b4a2a57fa694fe0b83f8e8b083fec569723e8163a45ae7a5",
+  "hashes": {
+    "versuchsplan.json": "1ef2c9a11e74ad1daf6cad479ce106a16cb874da01ca1789e3dfed2722e8ccd9",
+    "beeinflussung.py": "3febf7ab4cbf418ea870cc42244cef5513ca1e963e10f87304a8dccce9704a57",
+    "auswertung_robust.py": "68a0470303d18d0fb3208c8accdbc987625e7508f37864dd9b2b714b0b336e83"
+  },
+  "evaluation_version": "3.0-automatic-robustness",
+  "prepared_at": "2026-11-08T10:53:23.028706+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "planned": 10,
+  "openai_version": "3.46.0",
+  "started_at": "2026-11-08T10:53:38.036921+00:00"
+}

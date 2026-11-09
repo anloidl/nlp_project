@@ -1,0 +1,62 @@
+{
+  "verified": true,
+  "count": 3957,
+  "questions_per_variant": 1319,
+  "duplicate_or_missing": 0,
+  "checks": [
+    "Dateiprüfsummen und eingefrorene Kopien",
+    "unveränderte API-Payloads und Beispielauswahl",
+    "vollständige eindeutige Aufgabenmenge",
+    "Referenzen gegen Originaldatensatz",
+    "Modell, Effort, Temperatur und Tools",
+    "unabhängige Neuberechnung aller Bewertungen"
+  ],
+  "stats": {
+    "zero_shot": {
+      "received": 1319,
+      "correct": 836,
+      "format_errors": 33,
+      "number_fallback": 2,
+      "unextractable": 31,
+      "incomplete_outputs": 1,
+      "input_tokens": 190243,
+      "output_tokens": 12403,
+      "total_tokens": 202646,
+      "wrong_extractable_complete": 451
+    },
+    "few_shot": {
+      "received": 1319,
+      "correct": 847,
+      "format_errors": 211,
+      "number_fallback": 206,
+      "unextractable": 5,
+      "incomplete_outputs": 0,
+      "input_tokens": 397326,
+      "output_tokens": 10580,
+      "total_tokens": 407906,
+      "wrong_extractable_complete": 467
+    },
+    "cot": {
+      "received": 1319,
+      "correct": 1248,
+      "format_errors": 14,
+      "number_fallback": 0,
+      "unextractable": 14,
+      "incomplete_outputs": 0,
+      "input_tokens": 534502,
+      "output_tokens": 84323,
+      "total_tokens": 618825,
+      "wrong_extractable_complete": 57
+    }
+  },
+  "exceptions_to_review": 51,
+  "sample_to_review": 60,
+  "started_at": "2026-11-07T21:55:59.5866424+00:00",
+  "ended_at": "2026-11-07T23:41:47.2452568+00:00",
+  "response_sha256": "1d36311f4ba5a9b4858cb3d4791573b1ddaebda13915265e44c100ed834d23a0",
+  "manual_review": {
+    "unextractable_and_incomplete_checked": 51,
+    "additional_correct_and_wrong_checked": 60,
+    "assessment": "Extraktion und Referenzvergleich entsprechen der festgelegten Regel. Keine nachträgliche Umwertung."
+  }
+}

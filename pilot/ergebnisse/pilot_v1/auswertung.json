@@ -1,0 +1,45 @@
+{
+  "phase": "technical_pilot",
+  "complete": true,
+  "expected": 60,
+  "received": 60,
+  "missing": [],
+  "variants": {
+    "zero_shot": {
+      "received": 20,
+      "correct": 4,
+      "format_errors": 8,
+      "incomplete_outputs": 0,
+      "input_tokens": 2592,
+      "output_tokens": 164,
+      "total_tokens": 2756,
+      "planned": 20,
+      "missing": 0,
+      "accuracy": 0.2
+    },
+    "few_shot": {
+      "received": 20,
+      "correct": 2,
+      "format_errors": 15,
+      "incomplete_outputs": 0,
+      "input_tokens": 5732,
+      "output_tokens": 126,
+      "total_tokens": 5858,
+      "planned": 20,
+      "missing": 0,
+      "accuracy": 0.1
+    },
+    "cot": {
+      "received": 20,
+      "correct": 19,
+      "format_errors": 0,
+      "incomplete_outputs": 0,
+      "input_tokens": 8192,
+      "output_tokens": 1410,
+      "total_tokens": 9602,
+      "planned": 20,
+      "missing": 0,
+      "accuracy": 0.95
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "influence",
+  "evaluation_version": "3.0-automatic-robustness",
+  "planned": 10,
+  "received": 10,
+  "complete": true,
+  "correct": 4,
+  "numerically_wrong": 6,
+  "not_evaluable": 0,
+  "target_adopted": 6
+}

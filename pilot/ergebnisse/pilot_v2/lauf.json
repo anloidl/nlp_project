@@ -1,0 +1,30 @@
+{
+  "run_id": "pilot_v2",
+  "fingerprint": "4d7bc9da97fa830412d5d010c4a50f789de923ba4971ed1a9d05404fff049a2c",
+  "hashes": {
+    "config.json": "973e8cf7487d5a87ee3585c38ae1d4e88c3105b9fed0b6b8aaef6f1d16b6190e",
+    "prompts.json": "db2f976f33709b0107df5ca24d1e0ca498acdcf7f645280f0ea79d407a56b5f6",
+    "experiment.py": "733580833823e98dd0d6f3bce84379db564234df930ab8465e58436b15480d94",
+    "auswertung.py": "1b85fd452ec4da9e6bd3a1bd2ddeea3291867edf3d710a5749681123e25ff920",
+    "train.jsonl": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+    "test.jsonl": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+  },
+  "prepared_at": "2026-11-07T21:46:17.196853+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "planned_requests": 60,
+  "phase": "technical_pilot",
+  "prompt_version": "0.3",
+  "api_parameters": {
+    "model": "gpt-6-luna",
+    "reasoning": {
+      "effort": "none"
+    },
+    "temperature": 0,
+    "top_p": 1,
+    "max_output_tokens": 1024,
+    "store": false
+  },
+  "openai_version": "3.46.0",
+  "last_started_at": "2026-11-07T21:46:18.493957+00:00"
+}

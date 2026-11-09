@@ -1,0 +1,12 @@
+[
+  {
+    "task_id": "train:13",
+    "variant": "zero_shot",
+    "previously_correct": false,
+    "now_correct": true,
+    "method": "scalar",
+    "reference": "35",
+    "extracted": "35",
+    "response_excerpt": "FINAL: 35."
+  }
+]

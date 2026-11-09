@@ -1,0 +1,6 @@
+{
+  "current_evaluation": "3.0-automatic-robustness",
+  "evaluation_file": "auswertung_v3.json",
+  "adopted_after_main_run": true,
+  "original_evaluation": "2.0-number-fallback"
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "KI-unterstützte qualitative Sichtung einer vorab zufällig gezogenen, nach Prompt-Art geschichteten Stichprobe. Keine menschliche Doppelannotation und keine vollständige Referenzvalidierung.",
+  "sample_size": 30,
+  "per_variant": 10,
+  "categories": {
+    "Ursache aus Endantwort nicht bestimmbar": 18,
+    "Mehrdeutige oder widersprüchliche Aufgaben-/Referenzformulierung": 8,
+    "Abweichender Ziel- oder Zeitbezug": 2,
+    "Nicht berücksichtigter Aufgabenteil": 1,
+    "Äquivalentes Ergebnis in anderer Einheit": 1
+  },
+  "no_score_changes": true,
+  "limits": [
+    "Gleiche Fallzahl je Variante, aber sehr unterschiedliche Grundgesamtheiten; keine Hochrechnung dieser Anteile auf alle 985 Abweichungen.",
+    "Kategorie bezeichnet den vorrangigen Sichtungsbefund, keine unabhängig gesicherte kausale Fehlerdiagnose.",
+    "Einzelne Aufgaben waren aus früheren Kontrollen bekannt; die Sichtung ist nicht blind.",
+    "Mehrdeutige Referenz bedeutet nicht automatisch, dass die jeweilige Modellantwort richtig ist."
+  ]
+}

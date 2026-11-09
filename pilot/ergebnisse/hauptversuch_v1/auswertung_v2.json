@@ -1,0 +1,55 @@
+{
+  "phase": "main",
+  "evaluation_version": "2.0-number-fallback",
+  "complete": true,
+  "expected": 3957,
+  "received": 3957,
+  "missing": [],
+  "variants": {
+    "zero_shot": {
+      "received": 1319,
+      "correct": 836,
+      "format_errors": 33,
+      "number_fallback": 2,
+      "unextractable": 31,
+      "incomplete_outputs": 1,
+      "input_tokens": 190243,
+      "output_tokens": 12403,
+      "total_tokens": 202646,
+      "planned": 1319,
+      "missing": 0,
+      "accuracy": 0.6338134950720242,
+      "format_compliance": 0.974981046247157
+    },
+    "few_shot": {
+      "received": 1319,
+      "correct": 847,
+      "format_errors": 211,
+      "number_fallback": 206,
+      "unextractable": 5,
+      "incomplete_outputs": 0,
+      "input_tokens": 397326,
+      "output_tokens": 10580,
+      "total_tokens": 407906,
+      "planned": 1319,
+      "missing": 0,
+      "accuracy": 0.6421531463229719,
+      "format_compliance": 0.8400303260045489
+    },
+    "cot": {
+      "received": 1319,
+      "correct": 1248,
+      "format_errors": 14,
+      "number_fallback": 0,
+      "unextractable": 14,
+      "incomplete_outputs": 0,
+      "input_tokens": 534502,
+      "output_tokens": 84323,
+      "total_tokens": 618825,
+      "planned": 1319,
+      "missing": 0,
+      "accuracy": 0.9461713419257013,
+      "format_compliance": 0.9893858984078847
+    }
+  }
+}

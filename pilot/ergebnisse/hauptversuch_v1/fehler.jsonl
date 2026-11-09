@@ -1,0 +1,1 @@
+{"task_id": "test:680", "variant": "few_shot", "started_at": "2026-11-07T23:07:52.060092+00:00", "attempt": 1, "error_type": "APIConnectionError", "http_status": null, "response_unknown": true}

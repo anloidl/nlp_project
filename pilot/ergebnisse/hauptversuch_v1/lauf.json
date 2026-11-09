@@ -1,0 +1,32 @@
+{
+  "run_id": "hauptversuch_v1",
+  "fingerprint": "873062c014d17c4230df8fc04be512fa06e2fcfced2a47219d6afd7caab0a8f3",
+  "hashes": {
+    "config.json": "973e8cf7487d5a87ee3585c38ae1d4e88c3105b9fed0b6b8aaef6f1d16b6190e",
+    "prompts.json": "db2f976f33709b0107df5ca24d1e0ca498acdcf7f645280f0ea79d407a56b5f6",
+    "experiment.py": "cdcd9ed7f9d5d8e221f4bf3a4be46646de5054d5753b7461fbbc9a398f4e81a2",
+    "auswertung.py": "7e7a2ee5b32d2e8fbe4f352a36ee3d4a97ce037cdab14871d23663edf8629ab3",
+    "requirements-lock.txt": "9301cd538536dba58183ab608b6eb770e58a01150090077a5103d0ed0df2bd69",
+    "train.jsonl": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+    "test.jsonl": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+  },
+  "prepared_at": "2026-11-07T21:55:41.792237+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "planned_requests": 3957,
+  "phase": "main",
+  "evaluation_version": "2.0-number-fallback",
+  "prompt_version": "0.3",
+  "api_parameters": {
+    "model": "gpt-6-luna",
+    "reasoning": {
+      "effort": "none"
+    },
+    "temperature": 0,
+    "top_p": 1,
+    "max_output_tokens": 1024,
+    "store": false
+  },
+  "openai_version": "3.46.0",
+  "last_started_at": "2026-11-07T21:56:01.137641+00:00"
+}

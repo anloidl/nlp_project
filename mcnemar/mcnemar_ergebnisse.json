@@ -1,0 +1,110 @@
+{
+ "hauptversuch: zero_shot gegen few_shot": {
+  "n": 1319,
+  "nur_erste": 81,
+  "nur_zweite": 73,
+  "p_exakt_zweiseitig": 0.5728459689997074
+ },
+ "hauptversuch: zero_shot gegen cot": {
+  "n": 1319,
+  "nur_erste": 10,
+  "nur_zweite": 413,
+  "p_exakt_zweiseitig": 4.295592382259431e-108
+ },
+ "hauptversuch: few_shot gegen cot": {
+  "n": 1319,
+  "nur_erste": 9,
+  "nur_zweite": 420,
+  "p_exakt_zweiseitig": 1.8373360488002252e-111
+ },
+ "zusatzstudie: luna_none:zero_shot gegen luna_none:few_shot": {
+  "n": 300,
+  "nur_erste": 19,
+  "nur_zweite": 12,
+  "p_exakt_zweiseitig": 0.28104151505976915
+ },
+ "zusatzstudie: luna_none:zero_shot gegen luna_none:cot": {
+  "n": 300,
+  "nur_erste": 3,
+  "nur_zweite": 86,
+  "p_exakt_zweiseitig": 3.7988915866351353e-22
+ },
+ "zusatzstudie: luna_none:few_shot gegen luna_none:cot": {
+  "n": 300,
+  "nur_erste": 2,
+  "nur_zweite": 92,
+  "p_exakt_zweiseitig": 4.50950758747781e-25
+ },
+ "zusatzstudie: luna_low:zero_shot gegen luna_low:few_shot": {
+  "n": 300,
+  "nur_erste": 2,
+  "nur_zweite": 3,
+  "p_exakt_zweiseitig": 1.0
+ },
+ "zusatzstudie: luna_low:zero_shot gegen luna_low:cot": {
+  "n": 300,
+  "nur_erste": 0,
+  "nur_zweite": 3,
+  "p_exakt_zweiseitig": 0.25
+ },
+ "zusatzstudie: luna_low:few_shot gegen luna_low:cot": {
+  "n": 300,
+  "nur_erste": 1,
+  "nur_zweite": 3,
+  "p_exakt_zweiseitig": 0.625
+ },
+ "zusatzstudie: sol_low:zero_shot gegen sol_low:few_shot": {
+  "n": 300,
+  "nur_erste": 0,
+  "nur_zweite": 1,
+  "p_exakt_zweiseitig": 1.0
+ },
+ "zusatzstudie: sol_low:zero_shot gegen sol_low:cot": {
+  "n": 300,
+  "nur_erste": 0,
+  "nur_zweite": 1,
+  "p_exakt_zweiseitig": 1.0
+ },
+ "zusatzstudie: sol_low:few_shot gegen sol_low:cot": {
+  "n": 300,
+  "nur_erste": 0,
+  "nur_zweite": 0,
+  "p_exakt_zweiseitig": 1.0
+ },
+ "zusatzstudie: luna_none:zero_shot gegen luna_low:zero_shot": {
+  "n": 300,
+  "nur_erste": 1,
+  "nur_zweite": 87,
+  "p_exakt_zweiseitig": 5.751490196657771e-25
+ },
+ "zusatzstudie: luna_low:zero_shot gegen sol_low:zero_shot": {
+  "n": 300,
+  "nur_erste": 2,
+  "nur_zweite": 7,
+  "p_exakt_zweiseitig": 0.1796875
+ },
+ "zusatzstudie: luna_none:few_shot gegen luna_low:few_shot": {
+  "n": 300,
+  "nur_erste": 0,
+  "nur_zweite": 94,
+  "p_exakt_zweiseitig": 1.0097419586828951e-28
+ },
+ "zusatzstudie: luna_low:few_shot gegen sol_low:few_shot": {
+  "n": 300,
+  "nur_erste": 1,
+  "nur_zweite": 6,
+  "p_exakt_zweiseitig": 0.125
+ },
+ "zusatzstudie: luna_none:cot gegen luna_low:cot": {
+  "n": 300,
+  "nur_erste": 1,
+  "nur_zweite": 7,
+  "p_exakt_zweiseitig": 0.0703125
+ },
+ "zusatzstudie: luna_low:cot gegen sol_low:cot": {
+  "n": 300,
+  "nur_erste": 1,
+  "nur_zweite": 4,
+  "p_exakt_zweiseitig": 0.375
+ }
+}

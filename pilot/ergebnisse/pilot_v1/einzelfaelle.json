@@ -1,0 +1,482 @@
+[
+  {
+    "task_id": "train:3",
+    "variant": "zero_shot",
+    "extracted": "48",
+    "reference": "42",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:3",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "42",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:3",
+    "variant": "cot",
+    "extracted": "42",
+    "reference": "42",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:4",
+    "variant": "few_shot",
+    "extracted": "624",
+    "reference": "624",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:4",
+    "variant": "cot",
+    "extracted": "624",
+    "reference": "624",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:4",
+    "variant": "zero_shot",
+    "extracted": "624",
+    "reference": "624",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:5",
+    "variant": "cot",
+    "extracted": "35",
+    "reference": "35",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:5",
+    "variant": "zero_shot",
+    "extracted": "45.5",
+    "reference": "35",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:5",
+    "variant": "few_shot",
+    "extracted": "43.75",
+    "reference": "35",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:6",
+    "variant": "zero_shot",
+    "extracted": "48",
+    "reference": "48",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:6",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "48",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:6",
+    "variant": "cot",
+    "extracted": "48",
+    "reference": "48",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:7",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "16",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:7",
+    "variant": "cot",
+    "extracted": "16",
+    "reference": "16",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:7",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "16",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:8",
+    "variant": "cot",
+    "extracted": "41",
+    "reference": "41",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:8",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "41",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:8",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "41",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:9",
+    "variant": "zero_shot",
+    "extracted": "1170.00",
+    "reference": "990",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:9",
+    "variant": "few_shot",
+    "extracted": "990",
+    "reference": "990",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:9",
+    "variant": "cot",
+    "extracted": "990",
+    "reference": "990",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:10",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "121",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:10",
+    "variant": "cot",
+    "extracted": "121",
+    "reference": "121",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:10",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "121",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:11",
+    "variant": "cot",
+    "extracted": "5",
+    "reference": "5",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:11",
+    "variant": "zero_shot",
+    "extracted": "4",
+    "reference": "5",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:11",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "5",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:12",
+    "variant": "zero_shot",
+    "extracted": "85",
+    "reference": "85",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:12",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "85",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:12",
+    "variant": "cot",
+    "extracted": "85",
+    "reference": "85",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:13",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "35",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:13",
+    "variant": "cot",
+    "extracted": "35",
+    "reference": "35",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:13",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "35",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:14",
+    "variant": "cot",
+    "extracted": "5",
+    "reference": "5",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:14",
+    "variant": "zero_shot",
+    "extracted": "5",
+    "reference": "5",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:14",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "5",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:15",
+    "variant": "zero_shot",
+    "extracted": "65000",
+    "reference": "448000",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:15",
+    "variant": "few_shot",
+    "extracted": "1700000",
+    "reference": "448000",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:15",
+    "variant": "cot",
+    "extracted": "448000",
+    "reference": "448000",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:16",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "800",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:16",
+    "variant": "cot",
+    "extracted": "800",
+    "reference": "800",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:16",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "800",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:17",
+    "variant": "cot",
+    "extracted": "43",
+    "reference": "43",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:17",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "43",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:17",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "43",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:18",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "16",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:18",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "16",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:18",
+    "variant": "cot",
+    "extracted": "16",
+    "reference": "16",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:19",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "16",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:19",
+    "variant": "cot",
+    "extracted": "16",
+    "reference": "16",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:19",
+    "variant": "zero_shot",
+    "extracted": "12",
+    "reference": "16",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:20",
+    "variant": "cot",
+    "extracted": "38",
+    "reference": "38",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:20",
+    "variant": "zero_shot",
+    "extracted": "40",
+    "reference": "38",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:20",
+    "variant": "few_shot",
+    "extracted": "40",
+    "reference": "38",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:21",
+    "variant": "zero_shot",
+    "extracted": null,
+    "reference": "1080",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:21",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "1080",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:21",
+    "variant": "cot",
+    "extracted": "1080",
+    "reference": "1080",
+    "completed": true,
+    "correct": true
+  },
+  {
+    "task_id": "train:22",
+    "variant": "few_shot",
+    "extracted": null,
+    "reference": "7",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:22",
+    "variant": "cot",
+    "extracted": "5",
+    "reference": "7",
+    "completed": true,
+    "correct": false
+  },
+  {
+    "task_id": "train:22",
+    "variant": "zero_shot",
+    "extracted": "6",
+    "reference": "7",
+    "completed": true,
+    "correct": false
+  }
+]

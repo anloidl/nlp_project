@@ -1,0 +1,4 @@
+{"key": "932:luna_none:zero_shot", "at": "2026-11-08T23:57:51.887324+00:00", "attempt": 1, "type": "APIConnectionError"}
+{"key": "934:sol_low:cot", "at": "2026-11-09T02:16:51.857440+00:00", "attempt": 1, "type": "APIConnectionError"}
+{"key": "948:luna_low:cot", "at": "2026-11-09T07:58:47.213667+00:00", "attempt": 1, "type": "APIConnectionError"}
+{"key": "1180:sol_low:zero_shot", "at": "2026-11-09T08:19:14.360538+00:00", "attempt": 1, "type": "APITimeoutError"}

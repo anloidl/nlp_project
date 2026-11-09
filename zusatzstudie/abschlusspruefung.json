@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "requests": 2700,
+  "responses": 2700,
+  "unique_questions": 300,
+  "checks": [
+    "all expected keys exactly once",
+    "300 cases per cell",
+    "source references and seeded selection match",
+    "frozen source files match",
+    "model, effort and sent parameters match",
+    "all nine scores independently recomputed"
+  ],
+  "groups": {
+    "luna_none/zero_shot": {
+      "received": 300,
+      "correct": 199,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 43160,
+      "output_tokens": 2592,
+      "reasoning_tokens": 0
+    },
+    "luna_none/few_shot": {
+      "received": 300,
+      "correct": 192,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 90260,
+      "output_tokens": 2405,
+      "reasoning_tokens": 0
+    },
+    "luna_none/cot": {
+      "received": 300,
+      "correct": 282,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 121460,
+      "output_tokens": 18768,
+      "reasoning_tokens": 0
+    },
+    "luna_low/few_shot": {
+      "received": 300,
+      "correct": 286,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 90260,
+      "output_tokens": 13934,
+      "reasoning_tokens": 10889
+    },
+    "luna_low/cot": {
+      "received": 300,
+      "correct": 288,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 121460,
+      "output_tokens": 30247,
+      "reasoning_tokens": 12038
+    },
+    "luna_low/zero_shot": {
+      "received": 300,
+      "correct": 285,
+      "unextractable": 1,
+      "incomplete": 0,
+      "input_tokens": 43160,
+      "output_tokens": 15174,
+      "reasoning_tokens": 12077
+    },
+    "sol_low/cot": {
+      "received": 300,
+      "correct": 291,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 121460,
+      "output_tokens": 17776,
+      "reasoning_tokens": 426
+    },
+    "sol_low/zero_shot": {
+      "received": 300,
+      "correct": 290,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 43160,
+      "output_tokens": 7414,
+      "reasoning_tokens": 4458
+    },
+    "sol_low/few_shot": {
+      "received": 300,
+      "correct": 291,
+      "unextractable": 0,
+      "incomplete": 0,
+      "input_tokens": 90260,
+      "output_tokens": 7037,
+      "reasoning_tokens": 4146
+    }
+  },
+  "paired_discordances": {
+    "luna_none->luna_low/zero_shot": {
+      "right_only": 87,
+      "left_only": 1
+    },
+    "luna_low->sol_low/zero_shot": {
+      "right_only": 7,
+      "left_only": 2
+    },
+    "luna_none->luna_low/few_shot": {
+      "right_only": 94,
+      "left_only": 0
+    },
+    "luna_low->sol_low/few_shot": {
+      "right_only": 6,
+      "left_only": 1
+    },
+    "luna_none->luna_low/cot": {
+      "right_only": 7,
+      "left_only": 1
+    },
+    "luna_low->sol_low/cot": {
+      "right_only": 4,
+      "left_only": 1
+    }
+  },
+  "unextractable": [
+    {
+      "key": "640:luna_low:zero_shot",
+      "text": "FINAL: cannot be determined",
+      "reference": "43,500",
+      "question": "Bill is ordering a new truck. He has decided to purchase a two-ton truck with several added features: a king cab upgrade, a towing package, leather seats, running boards, and the upgraded exterior light package.  The base price of the truck is $30,000, and the other features are at extra cost. The king cab is an extra $7,500, leather seats are one-third the cost of the king cab upgrade, running boards are $500 less than the leather seats, and the upgraded exterior light package is $1500.  What is the total cost of Bill's new truck, in dollars?"
+    }
+  ],
+  "usage": {
+    "input_tokens": 764640,
+    "output_tokens": 115347
+  },
+  "raw_sha256": "70fdbcb0640efb1e7b401c04b635519fa995ff965b36c6a927d9fbcef7c96429",
+  "completed_at": "2026-11-09T08:29:19.143792+00:00",
+  "api_errors": [
+    {
+      "key": "932:luna_none:zero_shot",
+      "at": "2026-11-08T23:57:51.887324+00:00",
+      "attempt": 1,
+      "type": "APIConnectionError"
+    },
+    {
+      "key": "934:sol_low:cot",
+      "at": "2026-11-09T02:16:51.857440+00:00",
+      "attempt": 1,
+      "type": "APIConnectionError"
+    },
+    {
+      "key": "948:luna_low:cot",
+      "at": "2026-11-09T07:58:47.213667+00:00",
+      "attempt": 1,
+      "type": "APIConnectionError"
+    },
+    {
+      "key": "1180:sol_low:zero_shot",
+      "at": "2026-11-09T08:19:14.360538+00:00",
+      "attempt": 1,
+      "type": "APITimeoutError"
+    }
+  ]
+}

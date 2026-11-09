@@ -1,0 +1,191 @@
+[
+  {
+    "key": "23:luna_none:zero_shot",
+    "target": "5",
+    "extracted": "45/4",
+    "method": "scalar",
+    "correct": false
+  },
+  {
+    "key": "23:luna_none:few_shot",
+    "target": "5",
+    "extracted": "45/8",
+    "method": "scalar",
+    "correct": false
+  },
+  {
+    "key": "23:luna_none:cot",
+    "target": "5",
+    "extracted": "5",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "23:luna_low:few_shot",
+    "target": "5",
+    "extracted": "5",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "23:luna_low:cot",
+    "target": "5",
+    "extracted": "5",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "23:luna_low:zero_shot",
+    "target": "5",
+    "extracted": "5",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "23:sol_low:cot",
+    "target": "5",
+    "extracted": "5",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "23:sol_low:zero_shot",
+    "target": "5",
+    "extracted": "5",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "23:sol_low:few_shot",
+    "target": "5",
+    "extracted": "5",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:luna_low:cot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:luna_low:zero_shot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:luna_low:few_shot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:sol_low:zero_shot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:sol_low:few_shot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:sol_low:cot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:luna_none:few_shot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:luna_none:cot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "24:luna_none:zero_shot",
+    "target": "62",
+    "extracted": "62",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "25:sol_low:few_shot",
+    "target": "110",
+    "extracted": "110",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "25:sol_low:cot",
+    "target": "110",
+    "extracted": "110",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "25:sol_low:zero_shot",
+    "target": "110",
+    "extracted": "110",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "25:luna_none:cot",
+    "target": "110",
+    "extracted": "110",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "25:luna_none:zero_shot",
+    "target": "110",
+    "extracted": "95",
+    "method": "scalar",
+    "correct": false
+  },
+  {
+    "key": "25:luna_none:few_shot",
+    "target": "110",
+    "extracted": "105",
+    "method": "scalar",
+    "correct": false
+  },
+  {
+    "key": "25:luna_low:zero_shot",
+    "target": "110",
+    "extracted": "110",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "25:luna_low:few_shot",
+    "target": "110",
+    "extracted": "110",
+    "method": "scalar",
+    "correct": true
+  },
+  {
+    "key": "25:luna_low:cot",
+    "target": "110",
+    "extracted": "110",
+    "method": "scalar",
+    "correct": true
+  }
+]
