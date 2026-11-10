@@ -1,5 +1,7 @@
 # Beeinflussungsversuche – vollständige Dokumentation
 
+**Historischer Lauf:** Dieses Protokoll dokumentiert die ursprünglichen zehn Aufrufe mit Zusatz und den damaligen Vergleich mit gespeicherten Hauptversuchsantworten. Maßgeblich für die abschließende Ergebnisdarstellung ist die [Kontrollprüfung vom 10.11.2026](kontrollpruefung_20261110/README.md) mit 20 neuen Aufrufen. Die nachfolgenden Rohantworten und Bewertungen bleiben als Nachweis des ursprünglichen Laufs unverändert.
+
 Bewertung: automatische Version 3.0, keine manuellen Korrekturen.
 
 ## Fall 1: Falsche Vorantwort (test:0)

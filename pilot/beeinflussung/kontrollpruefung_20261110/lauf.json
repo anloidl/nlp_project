@@ -1,0 +1,18 @@
+{
+  "prepared_at": "2026-11-10T21:20:13.615183+00:00",
+  "fingerprint": "188a1ce249e907435fd99fbd7f17c6cfb71412e470f053f0cf5ca82d2ce1553f",
+  "planned": 20,
+  "evaluation_version": "3.0-automatic-robustness",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "openai_version": "3.46.0",
+  "source_files": {
+    "original_plan": "C:\\Users\\PC\\OneDrive\\Dokumente\\Studium 2024\\NLP - Projekt\\pilot\\beeinflussung\\versuchsplan.json",
+    "main_requests": "C:\\Users\\PC\\OneDrive\\Dokumente\\Studium 2024\\NLP - Projekt\\pilot\\ergebnisse\\hauptversuch_v1\\anfragen.jsonl",
+    "original_answers": "C:\\Users\\PC\\OneDrive\\Dokumente\\Studium 2024\\NLP - Projekt\\pilot\\beeinflussung\\ergebnisse\\antworten.jsonl",
+    "dataset": "C:\\Users\\PC\\OneDrive\\Dokumente\\Studium 2024\\NLP - Projekt\\daten\\gsm8k\\test.jsonl",
+    "evaluation": "C:\\Users\\PC\\OneDrive\\Dokumente\\Studium 2024\\NLP - Projekt\\pilot\\auswertung_robust.py",
+    "script": "C:\\Users\\PC\\Documents\\Codex\\2026-11-07\\referenced-chatgpt-conversation-this-is-an\\work\\kontrollpruefung_20261110\\kontrollpruefung.py"
+  },
+  "started_at": "2026-11-10T21:20:57.334021+00:00",
+  "finished_at": "2026-11-10T21:21:25.919556+00:00"
+}

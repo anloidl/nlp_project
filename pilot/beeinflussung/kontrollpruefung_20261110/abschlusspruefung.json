@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-11-10T21:22:19.484813+00:00",
+  "complete": true,
+  "unique_completed_responses": 20,
+  "dispatch_count": 20,
+  "order_matches_plan": true,
+  "original_source_hashes_unchanged": true,
+  "echoed_api_parameters_match": true,
+  "independently_recounted": {
+    "control_correct": 10,
+    "influenced_correct": 3,
+    "influenced_target_adopted": 7
+  },
+  "response_ids_sha256": "f7f4277416e4a5425d385b1fd7d01e6837c1ce99dad0adb0741f6a6c8af2bf05"
+}

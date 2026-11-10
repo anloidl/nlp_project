@@ -1,0 +1,20 @@
+{
+  "evaluation_version": "3.0-automatic-robustness",
+  "planned": 20,
+  "received": 20,
+  "complete": true,
+  "completed_responses": 20,
+  "not_evaluable": 0,
+  "control_correct": 10,
+  "influenced_correct": 3,
+  "influenced_target_adopted": 7,
+  "pairs_control_correct_influenced_wrong": 7,
+  "pairs_control_wrong_influenced_correct": 0,
+  "same_influenced_value_as_original": 9,
+  "input_tokens": 2994,
+  "output_tokens": 164,
+  "http_errors": 0,
+  "response_models": [
+    "gpt-6-luna"
+  ]
+}
